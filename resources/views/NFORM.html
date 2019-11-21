@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NEW ADMISSION</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body style="background:linear-gradient(45deg,lightblue,lightpink);height: 100vh">
+<div class="container">
+	<center>
+		<br><h2>STUDENT DETAILS</h2><br><br><br>
+	<table>
+		<tr>
+			<td>
+				FULL NAME
+			</td>
+			<td>
+				<input type="text" name="fname" placeholder="ENTER YOUR NAME">
+			</td>
+		</tr>
+
+         <tr>
+         	<td>
+         		FATHER NAME
+
+         	</td>
+         	<td>
+         		<input type="text" name="faname" placeholder="ENTER FATHER NAME ">
+         	</td>
+         </tr>
+         <tr>
+         <td>
+              DOB	
+         </td>
+         <td>
+         <input type="date" name="DOB" placeholder="ENTER YOUR DATE OF BIRTHDAY">
+          </td> </tr>
+               <tr>
+               	<td>
+               		GENDER
+               	</td>
+<td>
+	<input type="radio" name="gender" value="male"> Male<br>
+<input type="radio" name="gender" value="female"> Female<br>
+<input type="radio" name="gender" value="other"> Other
+
+</td>
+               </tr>
+               <tr>
+               	<td>
+               		CNIC NUMBER
+               	</td>
+               	<td>
+               		<input type="NUMBER" name="cnic" pattern=".{15}" title="must be 13 character" placeholder="ENTER YOUR CNIC NUMBER">
+               	</td>
+               </tr>
+               <tr>
+               	<td>
+               		CLASS
+               	</td>
+               	<td>
+               	<input type="number" name="class" placeholder="ENTER YOUR CLASS">
+               </td>
+               </tr>
+               <tr>
+               <td>
+               	FEES
+               </td>
+               <td>
+               	<input type="numbr" name="fees" placeholder="YOUR FEES is">
+               </td>
+           </tr>
+	</table>
+	<input type="button" name="submit" value="submit">
+</center>
+</div>
+
+</body>
+</html>
